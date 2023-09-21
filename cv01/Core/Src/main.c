@@ -89,18 +89,50 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  uint32_t sos=0;
-  sos = 1010100111011101110010101000000;
+  uint8_t sos[32] = {1,0,1,0,1,0,0,1,1,1,0,1,1,1,0,1,1,1,0,0,1,0,1,0,1,0,0,0,0,0,0};
+  uint32_t sos2 = 0b1010100111011101110010101000000;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /*--------------------------------------- sos pres pole ------------------------------------*/
+
+	  for (uint32_t i = 0; i<32; i++)
+	  {
+		  if (sos[i] == 1)
+		  {
+			  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
+		  }
+		  else
+		  {
+			  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
+		  }
+		  LL_mDelay(500);
+	  }
+
+	  /*------------------- sos pres bitovy operace --------------------------------------------*/
+	  /* for (uint32_t i = 0; i<32; i++)
+	   {
+	   	   if ((sos2 >> i)&0b1)
+	   	   {
+	   	   	  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	   	   }
+	   	   else
+	   	   {
+	   	   	  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	   	   }
+	   	   LL_mDelay(500);
+	   }
+	*/
+	  /*---------------------------------------------- jenom blikani --------------------------------*/
+	  /*
 	  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
 	  LL_mDelay(500);
 	  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
-	  LL_mDelay(500);
+	  LL_mDelay(500); */
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
   }
