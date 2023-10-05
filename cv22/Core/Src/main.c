@@ -311,6 +311,8 @@ void tlacitka(void)
 	uint32_t new_s2 = LL_GPIO_IsInputPinSet(S2_GPIO_Port, S2_Pin);
 	uint32_t new_s1 = LL_GPIO_IsInputPinSet(S1_GPIO_Port, S1_Pin);
 	if (Tick > BUTTON_READ+delay){
+		uint32_t new_s2 = LL_GPIO_IsInputPinSet(S2_GPIO_Port, S2_Pin);
+		uint32_t new_s1 = LL_GPIO_IsInputPinSet(S1_GPIO_Port, S1_Pin);
 		if (old_s2 && !new_s2) { // falling edge
 			off_time = Tick + LED_TIME_SHORT;
 			LL_GPIO_SetOutputPin(LED2_GPIO_Port, LED2_Pin);
