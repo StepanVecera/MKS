@@ -35,6 +35,7 @@
 #define LED_TIME_SHORT 100
 #define LED_TIME_LONG 1000
 #define BUTTON_READ 40
+#define BUTTON_READ_FAST 5
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -302,7 +303,7 @@ void blikac(void)
 		delay = Tick;
 	}
 }
-
+/*						tlacitka prvni reseni
 void tlacitka(void)
 {
 	static uint32_t old_s2, off_time, old_s1, delay = 0;
@@ -327,7 +328,35 @@ void tlacitka(void)
 		delay = Tick;
 	}
 }
+*/
+void tlacitka(void)
+{
+	static uint32_t off_time, delay = 0;
+	static uint16_t debounce = 0xFFFF, debounce2 = 0xFFFF;
+	if (Tick > BUTTON_READ_FAST+delay){
+		debounce <<= 1;
+		debounce2 <<= 1;
+		if (LL_GPIO_IsInputPinSet(S1_GPIO_Port, S1_Pin) == 0){
+			debounce |= 0x0001;
+		}
 
+		if (LL_GPIO_IsInputPinSet(S2_GPIO_Port, S2_Pin) == 0){
+			debounce2 |= 0x0001;
+		}
+		if (debounce == 0x7FFF){
+			off_time = Tick + LED_TIME_SHORT;
+			LL_GPIO_SetOutputPin(LED2_GPIO_Port, LED2_Pin);
+		}
+		if (debounce2 == 0x7FFF){
+			off_time = Tick + LED_TIME_LONG;
+			LL_GPIO_SetOutputPin(LED2_GPIO_Port, LED2_Pin);
+		}
+		delay = Tick;
+	}
+	if (Tick > off_time){
+		LL_GPIO_ResetOutputPin(LED2_GPIO_Port, LED2_Pin);
+	}
+}
 
 
 /* USER CODE END 4 */
