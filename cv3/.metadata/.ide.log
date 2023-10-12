@@ -1735,3 +1735,46 @@
 2023-10-12 10:06:08,493 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 4540mS.
 2023-10-12 10:06:08,494 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
 2023-10-12 10:06:08,496 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-12 11:16:57,235 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, TIM1, USART2]
+2023-10-12 11:17:01,531 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, TIM1, USART2]
+2023-10-12 11:17:10,871 [INFO] DmaTabbedPanel:205 - Cannot restore the selected Tab for DMA
+2023-10-12 11:17:11,787 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, TIM1, USART2]
+2023-10-12 11:18:23,938 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,640x270,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-12 11:18:50,332 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-12 11:19:08,259 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-12 11:19:35,567 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 668548024 Bytes (786432000)
+2023-10-12 11:19:35,640 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 679932392 Bytes (786432000)
+2023-10-12 11:19:39,106 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 248946848 Bytes (786432000)
+2023-10-12 11:19:39,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-12 11:19:39,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-12 11:19:39,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F0
+2023-10-12 11:19:39,438 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-12 11:19:39,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-12 11:19:39,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-12 11:19:39,440 [INFO] CodeGenerator:799 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-12 11:19:39,562 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\MXTmpFiles\license.tmp_save
+2023-10-12 11:19:39,719 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\MXTmpFiles\license.tmp
+2023-10-12 11:19:39,776 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\MXTmpFiles\gpio.tmp_save
+2023-10-12 11:19:39,951 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\MXTmpFiles\gpio.tmp
+2023-10-12 11:19:40,244 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\Core\Src\stm32f0xx_it.c_save
+2023-10-12 11:19:40,501 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\Core\Src\stm32f0xx_it.c
+2023-10-12 11:19:40,507 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\Core\Inc\stm32f0xx_it.h_save
+2023-10-12 11:19:40,598 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\Core\Inc\stm32f0xx_it.h
+2023-10-12 11:19:40,629 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\Core\Src\stm32f0xx_hal_msp.c_save
+2023-10-12 11:19:40,791 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\Core\Src\stm32f0xx_hal_msp.c
+2023-10-12 11:19:40,796 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\MXTmpFiles\system.tmp_save
+2023-10-12 11:19:40,887 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\MXTmpFiles\system.tmp
+2023-10-12 11:19:40,920 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\Core\Inc\stm32f0xx_hal_conf.h_save
+2023-10-12 11:19:41,042 [INFO] CodeEngine:335 - Generated code: C:\Temp\230345\MKS\cv3\cv31\Core\Inc\stm32f0xx_hal_conf.h
+2023-10-12 11:19:41,074 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-10-12 11:19:41,074 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-12 11:19:41,094 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\Core\Inc\main.h_save
+2023-10-12 11:19:41,208 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\Core\Inc\main.h
+2023-10-12 11:19:41,224 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv3\cv31\Core\Src\main.c_save
+2023-10-12 11:19:41,436 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv3\cv31\Core\Src\main.c
+2023-10-12 11:19:42,058 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 131mS.
+2023-10-12 11:19:42,062 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-12 11:19:42,258 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-10-12 11:19:44,185 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 2123mS.
+2023-10-12 11:19:44,185 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-12 11:19:44,188 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
