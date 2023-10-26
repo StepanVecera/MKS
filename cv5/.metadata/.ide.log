@@ -1272,3 +1272,161 @@
 2023-10-26 11:01:03,573 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1791mS.
 2023-10-26 11:01:03,574 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
 2023-10-26 11:01:03,576 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-26 11:27:45,917 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2]
+2023-10-26 11:27:45,952 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-26 11:28:32,331 [INFO] I2cTimingTraitement:330 - 0x2000090E
+2023-10-26 11:29:15,521 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 629279080 Bytes (846200832)
+2023-10-26 11:29:15,592 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 647010384 Bytes (846200832)
+2023-10-26 11:29:21,710 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 682247040 Bytes (846200832)
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-26 11:29:21,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-26 11:29:21,973 [INFO] CodeGenerator:799 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-26 11:29:21,986 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:321 - 	 sub Args: 
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Channel5
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Channel5
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:321 - 	 sub Args: 
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-26 11:29:21,987 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:319 - Argument : DMA_Remapvalue: null
+2023-10-26 11:29:21,988 [INFO] Argument:329 - Argument : DMA_Remapvalue: null
+2023-10-26 11:29:22,126 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\license.tmp_save
+2023-10-26 11:29:22,248 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\license.tmp
+2023-10-26 11:29:22,278 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\gpio.tmp_save
+2023-10-26 11:29:22,382 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\gpio.tmp
+2023-10-26 11:29:22,506 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma.tmp_save
+2023-10-26 11:29:22,618 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma.tmp
+2023-10-26 11:29:22,621 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma_GV.tmp_save
+2023-10-26 11:29:22,684 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma_GV.tmp
+2023-10-26 11:29:22,706 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_it.c_save
+2023-10-26 11:29:22,879 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_it.c
+2023-10-26 11:29:22,884 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_it.h_save
+2023-10-26 11:29:22,957 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_it.h
+2023-10-26 11:29:22,979 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_hal_msp.c_save
+2023-10-26 11:29:23,117 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_hal_msp.c
+2023-10-26 11:29:23,122 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\system.tmp_save
+2023-10-26 11:29:23,188 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\system.tmp
+2023-10-26 11:29:23,209 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_hal_conf.h_save
+2023-10-26 11:29:23,321 [INFO] CodeEngine:335 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_hal_conf.h
+2023-10-26 11:29:23,371 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Inc\main.h_save
+2023-10-26 11:29:23,465 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Inc\main.h
+2023-10-26 11:29:23,478 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Src\main.c_save
+2023-10-26 11:29:23,617 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Src\main.c
+2023-10-26 11:29:24,284 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 142mS.
+2023-10-26 11:29:24,287 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-26 11:29:24,476 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-10-26 11:29:25,964 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1678mS.
+2023-10-26 11:29:25,965 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-26 11:29:25,967 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-26 11:53:48,010 [INFO] I2cTimingTraitement:330 - 0x2000090E
+2023-10-26 11:53:48,176 [INFO] I2cTimingTraitement:330 - 0x2000090E
+2023-10-26 11:53:53,047 [INFO] I2cTimingTraitement:330 - 0x2000090E
+2023-10-26 11:53:53,226 [INFO] I2cTimingTraitement:330 - 0x2000090E
+2023-10-26 11:53:54,853 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 422906160 Bytes (856686592)
+2023-10-26 11:53:54,918 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 435360352 Bytes (856686592)
+2023-10-26 11:53:55,380 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 469021960 Bytes (856686592)
+2023-10-26 11:53:55,621 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-26 11:53:55,621 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-26 11:53:55,621 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-26 11:53:55,622 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-26 11:53:55,622 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-26 11:53:55,622 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-26 11:53:55,622 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-26 11:53:55,623 [INFO] CodeGenerator:799 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-26 11:53:55,641 [INFO] Argument:321 - 	 sub Args: 
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Channel5
+2023-10-26 11:53:55,641 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Channel5
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-26 11:53:55,641 [INFO] Argument:321 - 	 sub Args: 
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-26 11:53:55,641 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-26 11:53:55,641 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-26 11:53:55,641 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-26 11:53:55,641 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-26 11:53:55,641 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:319 - Argument : DMA_Remapvalue: null
+2023-10-26 11:53:55,642 [INFO] Argument:329 - Argument : DMA_Remapvalue: null
+2023-10-26 11:53:55,773 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\license.tmp_save
+2023-10-26 11:53:55,926 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\license.tmp
+2023-10-26 11:53:55,957 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\gpio.tmp_save
+2023-10-26 11:53:56,061 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\gpio.tmp
+2023-10-26 11:53:56,175 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma.tmp_save
+2023-10-26 11:53:56,270 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma.tmp
+2023-10-26 11:53:56,273 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma_GV.tmp_save
+2023-10-26 11:53:56,340 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\dma_GV.tmp
+2023-10-26 11:53:56,362 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_it.c_save
+2023-10-26 11:53:56,546 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_it.c
+2023-10-26 11:53:56,551 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_it.h_save
+2023-10-26 11:53:56,621 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_it.h
+2023-10-26 11:53:56,639 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_hal_msp.c_save
+2023-10-26 11:53:56,778 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Src\stm32f0xx_hal_msp.c
+2023-10-26 11:53:56,784 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\system.tmp_save
+2023-10-26 11:53:56,851 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\MXTmpFiles\system.tmp
+2023-10-26 11:53:56,870 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_hal_conf.h_save
+2023-10-26 11:53:56,981 [INFO] CodeEngine:335 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Inc\stm32f0xx_hal_conf.h
+2023-10-26 11:53:57,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Inc\main.h_save
+2023-10-26 11:53:57,121 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Inc\main.h
+2023-10-26 11:53:57,134 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\230345\MKS\cv5\cv5\Core\Src\main.c_save
+2023-10-26 11:53:57,273 [INFO] CodeEngine:279 - Generated code: C:\Temp\230345\MKS\cv5\cv5\Core\Src\main.c
+2023-10-26 11:53:57,896 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 125mS.
+2023-10-26 11:53:57,899 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-26 11:53:58,100 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-10-26 11:53:59,511 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1612mS.
+2023-10-26 11:53:59,512 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-26 11:53:59,514 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-26 12:24:14,342 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
