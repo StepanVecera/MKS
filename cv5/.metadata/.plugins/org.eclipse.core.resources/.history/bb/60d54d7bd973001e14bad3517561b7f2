@@ -1,0 +1,21 @@
+/*
+ * studio.h
+ *
+ *  Created on: Oct 26, 2023
+ *      Author: xvecer25
+ */
+
+#ifndef SRC_STUDIO_H_
+#define SRC_STUDIO_H_
+
+static void  _write()
+{
+	int _write(int file, char const *buf, int n)
+	{
+	 /* stdout redirection to UART2 */
+	 HAL_UART_Transmit(&huart2, (uint8_t*)(buf), n, HAL_MAX_DELAY);
+	 return n;
+	}
+};
+
+#endif /* SRC_STUDIO_H_ */
