@@ -1,0 +1,24 @@
+!SESSION 2023-11-09 09:51:37.198 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-11-09 09:52:01.981
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-11-09 09:52:01.992
+!MESSAGE Log4j2 initialized with config file C:\Temp\230345\MKS\cv7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-11-09 09:52:05.387
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2023-11-09 09:53:29.979
+!MESSAGE Not able to get any active project build configuration.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-09 10:02:18.216
+!MESSAGE Indexed 'cv7' (35 sources, 106 headers) in 3.9 sec: 7,932 declarations; 51,892 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0033%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-11-09 10:16:54.051
+!MESSAGE Won't launch debug session since we failed to locate the binary.
