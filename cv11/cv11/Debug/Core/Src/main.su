@@ -1,0 +1,8 @@
+../Core/Src/main.c:65:6:send_mouse	24	static
+../Core/Src/main.c:80:6:circle	72	static
+../Core/Src/main.c:102:6:semi_circle	64	static
+../Core/Src/main.c:129:5:main	8	static
+../Core/Src/main.c:188:6:SystemClock_Config	88	static
+../Core/Src/main.c:234:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:267:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:357:6:Error_Handler	4	static,ignoring_inline_asm
